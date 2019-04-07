@@ -4,6 +4,8 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
 }
 
 /*
@@ -21,3 +23,83 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+.zbozi{
+    
+    width: 670 px;
+  height: 440 px;
+}
+.vizual{
+    
+    float: left;
+	width: 50%;
+    background-image: linear-gradient(to bottom right, #06d7c1 ,#50cc49);
+    color:white;
+    padding: 30px;
+    border-radius: 20 px;
+
+}
+.detaily{
+    
+    float: left;
+	width: 50%;
+    background-color: white;
+    padding: 30px;
+    height: 440 px;
+}
+.logo {
+    
+    padding: 30 px;
+    margin: 30 px;
+}
+.slogan{
+    font-size: 16 px;
+    font-weight: 500;
+}
+
+.cena{
+    font-size: 28 px;
+    font-weight: 500;
+    text-align: right;
+}
+.zaruka{
+    font-size: 12 px;
+    font-weight: 400;
+    text-align: right;
+}
+.nazev{
+    font-size: 20 px;
+    font-weight: 500;
+}
+.produkt{
+    font-size: 14 px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.parametr{
+    text-transform: uppercase;
+    border-color:  #06d7c1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 30 px;
+    margin: 30 px;
+}
+.velikosti li {
+    display: inline-block;
+    margin: 40;
+    padding: 40;
+} 
+.vybrana{
+    color: #f15f42;
+   border-radius: 40 px;
+}
+.tlacitko{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 50;
+    padding: 50;
+    background-color: #f15f42;
+    color: white;
+    border-radius: 20 px;
+    text-decoration: none;
+}
